@@ -18,6 +18,9 @@ export default defineConfig([
         ...globals.browser,
       },
     },
+    rules: {
+      'vue/multi-word-component-names' : 'off'
+    }
   },
 
   js.configs.recommended,
